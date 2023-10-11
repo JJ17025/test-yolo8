@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['h']
+
+roboflow:
+  workspace: jaknarong-songpatkaew-sw8tr
+  project: yolo-object-detection-1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jaknarong-songpatkaew-sw8tr/yolo-object-detection-1/dataset/1
